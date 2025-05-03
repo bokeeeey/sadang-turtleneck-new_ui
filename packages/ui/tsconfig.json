@@ -1,5 +1,5 @@
 {
-    "extends": "@sadang/tsconfig/base.json",
+    "extends": "@sadang-turtleneck-new-ui/tsconfig/base.json",
     "compilerOptions": {
         "baseUrl": "."
     },
