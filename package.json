@@ -1,6 +1,7 @@
 {
     "name": "sadang-turtleneck-new-ui",
     "private": true,
+    "type": "module",
     "author": "bokeeeey",
     "repository": {
         "type": "git",

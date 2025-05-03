@@ -1,6 +1,7 @@
 {
     "name": "@sadang-turtleneck-new-ui/ui",
     "version": "0.1.0",
+    "type": "module",
     "description": "",
     "main": "./dist/index.mjs",
     "license": "MIT",
