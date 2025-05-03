@@ -1,5 +1,5 @@
-import node from '@sadang/eslint-config/node'
-import typescript from '@sadang/eslint-config/typescript'
+import node from '@sadang-turtleneck-new-ui/eslint/node'
+import typescript from '@sadang-turtleneck-new-ui/eslint/typescript'
 
 export default [
     {

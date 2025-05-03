@@ -1,6 +1,7 @@
 {
     "name": "@sadang-turtleneck-new-ui/prettier",
     "version": "0.0.0",
+    "type": "module",
     "description": "",
     "main": "index.json",
     "scripts": {
