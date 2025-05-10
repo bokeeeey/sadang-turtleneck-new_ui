@@ -1,5 +1,11 @@
 # @sadang-turtleneck-new-ui/ui
 
+## 0.2.0
+
+### Minor Changes
+
+- b38057c: repo/fix: ui packages fix
+
 ## 0.1.1
 
 ### Patch Changes
