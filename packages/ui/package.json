@@ -10,7 +10,7 @@
     "exports": {
         ".": {
             "types": "./dist/index.d.mts",
-            "default": "./dist.index.mjs"
+            "default": "./dist/index.mjs"
         },
         "./package.json": "./package.json",
         "./design-system.scss": "./dist/styles/design-system.scss"

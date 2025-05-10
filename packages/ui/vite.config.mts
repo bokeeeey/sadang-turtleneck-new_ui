@@ -94,7 +94,7 @@ export default defineConfig({
                  * 에셋 파일명 설정: 스타일 파일이나 기타 에셋의 이름을 설정
                  */
                 assetFileNames: (assetInfo) => {
-                    console.log('assetInfo', assetInfo)
+                    // console.log('assetInfo', assetInfo)
                     if (!assetInfo.names) {
                         return ''
                     }
