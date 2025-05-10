@@ -12,23 +12,17 @@ export interface FlexProps extends HTMLAttributes<HTMLDivElement> {
     gap?: 'none' | 'xs' | 'sm' | 'md' | 'lg' | 'xl'
 }
 
-export function Flex({
-    children,
-    direction = 'row',
-    justify = 'center',
-    align = 'center',
-    gap = 'sm',
-    ...props
-}: FlexProps) {
+export function Flex({children, direction, justify, align, gap, className, ...props}: FlexProps) {
     return (
         <div
-            className={cx({
-                flex: true,
-                [`direction-${direction}`]: true,
-                [`justify-${justify}`]: true,
-                [`align-${align}`]: true,
-                [`gap-${gap}`]: true,
-            })}
+            className={cx(
+                'flex',
+                direction && `direction-${direction}`,
+                justify && `justify-${justify}`,
+                align && `align-${align}`,
+                gap && `gap-${gap}`,
+                className,
+            )}
             {...props}
         >
             {children}
